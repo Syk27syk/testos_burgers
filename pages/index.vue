@@ -21,7 +21,7 @@
           </div>
         </div>
       </div>
-      <div id="section-1" class="text-center bg-[url('/about.jpg')] bg-center bg-cover min-w-full min-h-96 pb-60">
+      <div id="section-1" class="text-center bg-[url('/content1-bg.jpg')] bg-center bg-cover min-w-full min-h-96 pb-60">
         <h1 class="pt-20 px-32 text-center text-6xl uppercase font-oswald">
           The burger tastes better when you eat it with family.
         </h1>
@@ -154,7 +154,7 @@
           </div>
         </div>
       </div>
-      <div id="promotions-1" class="grid grid-cols-12 h-48 max-h-72 gap-x-3 my-10 sticky bottom-0 bg-gray-100">
+      <div id="promotions-1" class="grid grid-cols-12 h-48 max-h-72 gap-x-3 my-10 sticky bottom-0 bg-gray-100 animate-bounce">
         <div class="flex flex-row bg-[url('/fries-bg-1.jpg')] bg-cover bg-left col-span-5">
           <p colspan="2" class="inset-0 h-full w-full text-transparent">text</p>
           <div colspan="3" class="m-5 w-2/3 mx-auto">
@@ -217,29 +217,29 @@
             Bye bye long queues. Order before and your food will be ready in a flash. Enjoy the convenience of ordering food online at any time and from any location.
           </p>
           <div class="flex flex-row space-x-3 px-20 pb-20">
-            <button class="h-[45px] max-h-10"><img src="/appstore.png"></button>
-            <button class="h-[45px] max-h-10"><img src="/googleplay.png"></button>
+            <button class="h-[45px] max-h-10"><img src="/appstore.jpg"></button>
+            <button class="h-[45px] max-h-10"><img src="/googleplay.jpg"></button>
           </div>
         </div>
         <img src="/eshop.png" alt="" class="col-span-2 -m-12 h-[500px] object-cover max-w-lg">
       </div>
-      <div id="logos" class="flex flex-row justify-center py-10 bg-gray-200 bg-repeat">
-        <div class="h-28 w-28 p-2">
+      <div id="logos" class="flex flex-col md:flex-row py-10 bg-gray-200 bg-repeat">
+        <div class="h-28 w-28 p-2 mx-auto">
           <img src="/brand-1.png" alt="" />
         </div>
-        <div class="h-28 w-28 p-2">
+        <div class="h-28 w-28 p-2 mx-auto">
           <img src="/brand-2.png" alt="" />
         </div>
-        <div class="h-28 w-28 p-2">
+        <div class="h-28 w-28 p-2 mx-auto">
           <img src="/brand-3.png" alt="" />
         </div>
-        <div class="h-28 w-28 p-2">
+        <div class="h-28 w-28 p-2 mx-auto">
           <img src="/brand-4.png" alt="" />
         </div>
-        <div class="h-28 w-28 p-2">
+        <div class="h-28 w-28 p-2 mx-auto">
           <img src="/brand-5.png" alt="" />
         </div>
-        <div class="h-28 w-28 p-2">
+        <div class="h-28 w-28 p-2 mx-auto">
           <img src="/brand-6.png" alt="" />
         </div>
       </div>
@@ -255,20 +255,20 @@
         <p class="text-gray-000 text-opacity-80 font-light text-center text-lg tracking-snug pt-3 pb-2">
           Besides burgers, we also have a large range of item sincluding sandwiches, wraps, panini, soups, salads and more.
         </p>
-        <div class="flex flex-row flex-wrap gap-5 mx-32 my-16 justify-center">
-          <div class="grid grid-cols-2 gap-5 max-w-2xl">
+        <div class="flex flex-row flex-wrap gap-5 mx-5 lg:mx-32 my-16 justify-center">
+          <div class="grid md:grid-cols-2 gap-5 max-w-2xl">
             <NuxtLink to=""><img src="/img-01.jpg" alt="" class="hover:border-8 hover:border-gray-200 hover:border-opacity-20" /></NuxtLink>
             <NuxtLink to=""><img src="/img-02.jpg" alt="" class="hover:border-8 hover:border-gray-200 hover:border-opacity-20" /></NuxtLink>
           </div>
-          <div class="grid grid-cols-2 gap-5 max-w-2xl">
+          <div class="grid md:grid-cols-2 gap-5 max-w-2xl">
             <NuxtLink to=""><img src="/img-03.jpg" alt="" class="hover:border-8 hover:border-gray-200 hover:border-opacity-20" /></NuxtLink>
             <NuxtLink to=""><img src="/img-04.jpg" alt="" class="hover:border-8 hover:border-gray-200 hover:border-opacity-20" /></NuxtLink>
           </div>
-          <div class="grid grid-cols-2 gap-5 max-w-2xl">
+          <div class="grid md:grid-cols-2 gap-5 max-w-2xl">
            <NuxtLink to=""><img src="/img-05.jpg" alt="" class="hover:border-8 hover:border-gray-200 hover:border-opacity-20" /></NuxtLink>
            <NuxtLink to=""><img src="/img-06.jpg" alt="" class="hover:border-8 hover:border-gray-200 hover:border-opacity-20" /></NuxtLink>
           </div>
-          <div class="grid grid-cols-2 gap-5 max-w-2xl">
+          <div class="grid md:grid-cols-2 gap-5 max-w-2xl">
             <NuxtLink to=""><img src="/img-07.jpg" alt="" class="hover:border-8 hover:border-gray-200 hover:border-opacity-20" /></NuxtLink>
             <NuxtLink to=""><img src="/img-08.jpg" alt="" class="hover:border-8 hover:border-gray-200 hover:border-opacity-20" /></NuxtLink>
           </div>
@@ -278,10 +278,10 @@
         <h5 class="text-2xl tracking-tight text-bold uppercase pt-10">
           We Guarantee
         </h5>
-        <h3 class="text-4xl tracking-tight text-bold uppercase p-3">
+        <h3 class="text-4xl tracking-tight text-bold uppercase p-3 px-5">
           30 Minutes Delivery
         </h3>
-        <p class="text-sm text-light text-gray-600 px-36">
+        <p class="text-sm text-light text-gray-600 px-12 md:px-36">
           Free delivery for all orders above RM30. We are committed to deliver the freshest and warmest food to all our customers. If your order is not delivered within 30 minutes, your next meal is on us!
         </p>
         <button class="bg-red-500 text-white px-8 py-2 mt-3 mb-12 animate-pulse">

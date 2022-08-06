@@ -1,5 +1,5 @@
 <template>
-    <div id="information" class="bg-gray-100 px-28 py-5 grid grid-cols-4 gap-x-14 text-center text-gray-900">
+    <div id="information" class="bg-gray-100 px-28 py-5 grid md:grid-cols-4 gap-x-14 gap-y-5 text-center text-gray-900">
         <div id="info-location">
             <h5 class="text-bold uppercase p-2">
                 <strong>Location</strong>
@@ -36,9 +36,9 @@
                 </p>
             </div>
             <div id="social-media-icons" class="grid grid-cols-3 justify-items-center p-3">
-                <a href=""><img src="facebook.png" alt="" class="h-5 w-5" /></a>
-                <a href=""><img src="instagram.png" alt="" class="h-5 w-5" /></a>
-                <a href=""><img src="youtube.png" alt="" class="h-5 w-5" /></a>
+                <a href=""><img src="facebook.jpg" alt="" class="h-5 w-5" /></a>
+                <a href=""><img src="instagram.jpg" alt="" class="h-5 w-5" /></a>
+                <a href=""><img src="youtube.jpg" alt="" class="h-5 w-5" /></a>
             </div>
         </div>
     </div>
