@@ -1,41 +1,38 @@
-<!--BURGER-->
 <template>
   <div>
     <div>
-      <div id="header" class="bg-[url('/hero-bg.jpg')] px-20">
-        <div>
-         <Header />
-        </div>
-        <div class="flex flex-row justify-center gap-32 pb-20 pt-10">
-          <div class="relative">
+      <div id="header" class="bg-[url('/hero-bg.jpg')]">
+        <Header />
+        <div class="flex flex-col lg:flex-row justify-center gap-12 lg:gap-32 pb-20 pt-10 px-10">
+          <div id="hero-burger" class="relative mx-auto">
             <img src="/hero-burger.png" class="pr-8 mt-10 max-w-xl hover:animate-spin" alt="" />
             <img src="/play_with_me.png" class="absolute -top-20 -right-20 h-48 w-48" />
           </div>
-          <div id="hero-text" class="max-w-2xl">
+          <div id="hero-text" class="max-w-2xl mx-auto pt-10">
             <h1 class="text-8xl text-white text-center min-w-lg font-lilita uppercase">
               Classic Burger
             </h1>
             <h2 class="text-6xl text-white text-center font-lilita uppercase mt-5 mb-5">
               With onion
             </h2>
-            <p class="text-white font-roboto font-light text-center">
+            <p class="text-white text-xl font-roboto font-light text-center">
               Our signature burger now comes with onion and cheese. You can customize it to your liking. Freshly made to order, all in a Brioche style bun.
             </p>
           </div>
         </div>
       </div>
-      <div id="section-1" class="text-center bg-[url('/about.jpg')] bg-center pb-60 bg-cover min-w-full min-h-96">
-        <h1 class="text-6xl uppercase font-oswald pt-20 text-center px-32">
+      <div id="section-1" class="text-center bg-[url('/about.jpg')] bg-center bg-cover min-w-full min-h-96 pb-60">
+        <h1 class="pt-20 px-32 text-center text-6xl uppercase font-oswald">
           The burger tastes better when you eat it with family.
         </h1>
-        <p class="font-roboto font-light text-gray-900 text-lg py-6 px-28 text-center">
+        <p class="py-6 px-28 text-center font-roboto font-light text-gray-900 text-lg">
             Spend quality time with your family and eat an affordable, nutritious and delicious meal together. Not all burgers are fast foods. All our burgers are handmade to order for you and your family members to enjoy.
         </p>
-        <button class="font-oswald uppercase bg-red-500 text-white text-center py-3 px-8 animate-pulse">
-          <NuxtLink to="/menutest">Explore Full Menu</NuxtLink>
+        <button class="py-3 px-8 text-center bg-red-500 text-white font-oswald uppercase animate-pulse">
+          <NuxtLink to="/menu">Explore Full Menu</NuxtLink>
         </button>
       </div>
-      <div id="sellingpoints" class="bg-yellow-500 gap-5 grid grid-cols-3 px-20 py-5 text-center">
+      <div id="selling-points" class="grid grid-cols-3 gap-5 px-20 py-5 bg-yellow-500 text-center">
         <div class="relative">
           <div class="p-5">
             <svg
