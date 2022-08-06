@@ -11,6 +11,7 @@
         </body>
         <hr>
         <div>
+            <Information />
             <Footer />
         </div>
     </div>

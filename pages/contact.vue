@@ -3,7 +3,7 @@
         <div class="bg-[url('/contacts-page.jpg')]">
             <Header />
             <h1 class="font-oswald uppercase text-6xl text-center pt-24 pb-28 z-20 text-white">
-                Contacts
+                Contact
             </h1>
         </div>
         <body>

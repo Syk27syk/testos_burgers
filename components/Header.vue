@@ -25,7 +25,7 @@
                 Locations
               </NuxtLink>
               <NuxtLink
-                to="/contacts"
+                to="/contact"
                 class="hover:ring-1 hover:ring-white hover:animate-bounce active:border-white active:border-4 active:bg-black py-1 px-3"
               >
                 Contacts
@@ -34,7 +34,7 @@
                 to="/cart"
                 class="hover:ring-1 hover:ring-white hover:animate-bounce visited:text-gray-500 py-1 px-3"
               >
-              <!--Cart ({{ $store.getters.totalItems }})-->
+                <!--Cart ({{ $store.getters.totalItems }})-->
               </NuxtLink>
             </ul>
           </div>

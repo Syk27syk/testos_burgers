@@ -178,15 +178,15 @@
           </div>
         </div>
       </div>
-      <div id="promotions-2" class="grid grid-cols-3 gap-x-3 px-20">
+      <div id="promotions-2" class="grid lg:grid-cols-3 gap-3 lg:px-20 py-3 mx-auto">
         <div class="hover:border-8 hover:border-gray-200 hover:border-opacity-20">
-          <NuxtLink to=""><img src="/offer-1.jpg" alt="" /></NuxtLink>
+          <NuxtLink to="/menu"><img src="/offer-1.jpg" class="mx-auto" alt="" /></NuxtLink>
         </div>
         <div class="hover:border-8 hover:border-gray-200 hover:border-opacity-20">
-          <NuxtLink to=""><img src="/offer-2.jpg" alt="" /></NuxtLink>
+          <NuxtLink to="/menu"><img src="/offer-2.jpg" class="mx-auto" alt="" /></NuxtLink>
         </div>
         <div class="hover:border-8 hover:border-gray-200 hover:border-opacity-20">
-          <NuxtLink to=""><img src="/offer-3.jpg" alt="" /></NuxtLink>
+          <NuxtLink to="/menu"><img src="/offer-3.jpg" class="mx-auto" alt="" /></NuxtLink>
         </div>
       </div>
       <div id="bringing-people-together" class="flex flex-col bg-gray-100 p-20 overflow-y-scroll justify-center">
@@ -257,20 +257,20 @@
         </p>
         <div class="flex flex-row flex-wrap gap-5 mx-5 lg:mx-32 my-16 justify-center">
           <div class="grid md:grid-cols-2 gap-5 max-w-2xl">
-            <NuxtLink to=""><img src="/img-01.jpg" alt="" class="hover:border-8 hover:border-gray-200 hover:border-opacity-20" /></NuxtLink>
-            <NuxtLink to=""><img src="/img-02.jpg" alt="" class="hover:border-8 hover:border-gray-200 hover:border-opacity-20" /></NuxtLink>
+            <NuxtLink to="/menu"><img src="/img-01.jpg" alt="" class="hover:border-8 hover:border-gray-200 hover:border-opacity-20" /></NuxtLink>
+            <NuxtLink to="/menu"><img src="/img-02.jpg" alt="" class="hover:border-8 hover:border-gray-200 hover:border-opacity-20" /></NuxtLink>
           </div>
           <div class="grid md:grid-cols-2 gap-5 max-w-2xl">
-            <NuxtLink to=""><img src="/img-03.jpg" alt="" class="hover:border-8 hover:border-gray-200 hover:border-opacity-20" /></NuxtLink>
-            <NuxtLink to=""><img src="/img-04.jpg" alt="" class="hover:border-8 hover:border-gray-200 hover:border-opacity-20" /></NuxtLink>
+            <NuxtLink to="/menu"><img src="/img-03.jpg" alt="" class="hover:border-8 hover:border-gray-200 hover:border-opacity-20" /></NuxtLink>
+            <NuxtLink to="/menu"><img src="/img-04.jpg" alt="" class="hover:border-8 hover:border-gray-200 hover:border-opacity-20" /></NuxtLink>
           </div>
           <div class="grid md:grid-cols-2 gap-5 max-w-2xl">
-           <NuxtLink to=""><img src="/img-05.jpg" alt="" class="hover:border-8 hover:border-gray-200 hover:border-opacity-20" /></NuxtLink>
-           <NuxtLink to=""><img src="/img-06.jpg" alt="" class="hover:border-8 hover:border-gray-200 hover:border-opacity-20" /></NuxtLink>
+           <NuxtLink to="/menu"><img src="/img-05.jpg" alt="" class="hover:border-8 hover:border-gray-200 hover:border-opacity-20" /></NuxtLink>
+           <NuxtLink to="/menu"><img src="/img-06.jpg" alt="" class="hover:border-8 hover:border-gray-200 hover:border-opacity-20" /></NuxtLink>
           </div>
           <div class="grid md:grid-cols-2 gap-5 max-w-2xl">
-            <NuxtLink to=""><img src="/img-07.jpg" alt="" class="hover:border-8 hover:border-gray-200 hover:border-opacity-20" /></NuxtLink>
-            <NuxtLink to=""><img src="/img-08.jpg" alt="" class="hover:border-8 hover:border-gray-200 hover:border-opacity-20" /></NuxtLink>
+            <NuxtLink to="/menu"><img src="/img-07.jpg" alt="" class="hover:border-8 hover:border-gray-200 hover:border-opacity-20" /></NuxtLink>
+            <NuxtLink to="/menu"><img src="/img-08.jpg" alt="" class="hover:border-8 hover:border-gray-200 hover:border-opacity-20" /></NuxtLink>
           </div>
         </div>
       </div>
