@@ -100,48 +100,56 @@
           </p>
         </div>
       </div>
-      <div id="featured-burgers" class="text-center bg-gray-100">
-        <h2 class="text-6xl font-oswald text-red-500 uppercase font-medium text-center pt-20 pb-3">
+      <div id="featured-burgers" class="bg-gray-100 pb-12 text-center">
+        <h2 class="pt-20 pb-3 text-center uppercase text-red-500 font-oswald text-6xl font-medium">
           Our Crazy Burgers
         </h2>
-        <p class="text-gray-800 font-light text-lg w-4/5 mx-auto my-10 px-20">
+        <p class="w-4/5 mx-auto my-10 px-20 text-gray-800 font-light text-lg">
           Whether you are looking for the classics, our specialties, or just wraps, salads, and fries, we have it all. We always have something that rewards your tastebud.
         </p>
         <div class="flex flex-row flex-wrap justify-center gap-5 px-40">
-          <div class="grid grid-cols-2 gap-5 max-w-3xl">
+          <div class="grid md:grid-cols-2 gap-5 max-w-3xl">
             <div>
-              <Items
-                image="/crispy-chicken.jpg"
-                title="Crispy Chicken"
-                description="Chicken breast, chili sauce, tomatoes, pickles, coleslaw"
-                price="11.99"
-              />
+              <NuxtLink to="/menu">
+                <Items
+                  image="/crispy-chicken.jpg"
+                  title="Crispy Chicken"
+                  description="Chicken breast, chili sauce, tomatoes, pickles, coleslaw"
+                  price="11.99"
+                />
+              </NuxtLink>
             </div>
             <div>
-              <Items
-                image="/ultimate-bacon.jpg"
-                title="Ultimate Bacon"
-                description="House beef patty, cheddar cheese, smokey bacon, onion, mustard"
-                price="14.99"
-              />
+              <NuxtLink to="/menu">
+                <Items
+                  image="/ultimate-bacon.jpg"
+                  title="Ultimate Bacon"
+                  description="House beef patty, cheddar cheese, smokey bacon, onion, mustard"
+                  price="14.99"
+                />
+              </NuxtLink>
             </div>
           </div>
-          <div class="grid grid-cols-2 gap-5 max-w-3xl">
+          <div class="grid md:grid-cols-2 gap-5 max-w-3xl">
             <div>
-              <Items
-                image="/baa-baa.jpg"
-                title="Baa-Baa Black Sheep"
-                description="American cheese, tomato relish, avocado, juicy lamb patty"
-                price="15.75"
-              />
+              <NuxtLink to="menu">
+                <Items
+                  image="/baa-baa.jpg"
+                  title="Baa-Baa Black Sheep"
+                  description="American cheese, tomato relish, avocado, juicy lamb patty"
+                  price="15.75"
+                />
+              </NuxtLink>
             </div>
             <div>
-              <Items
-                image="/double-burger.jpg"
-                title="Double Burger"
-                description="2 x beef patties, cheddar cheese, mustard, pickles, tomatoes"
-                price="15.35"
-              />
+              <NuxtLink to="menu">
+                <Items
+                  image="/double-burger.jpg"
+                  title="Double Burger"
+                  description="2 x beef patties, cheddar cheese, mustard, pickles, tomatoes"
+                  price="15.35"
+                />
+              </NuxtLink>
             </div>
           </div>
         </div>
@@ -266,7 +274,7 @@
           </div>
         </div>
       </div>
-      <div id="30-min-delivery" class="bg-[url('/banner.jpg')] bg-cover h-250 text-gray-700 text-center px-300">
+      <div id="30-min-delivery" class="bg-[url('/banner.jpg')] bg-cover h-250 text-gray-700 text-center">
         <h5 class="text-2xl tracking-tight text-bold uppercase pt-10">
           We Guarantee
         </h5>
@@ -282,7 +290,8 @@
       </div>
     </div>
     <div>
-      <Header />
+      <Information />
+      <Footer />
     </div>
   </div>
 </template>
