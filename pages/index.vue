@@ -3,6 +3,12 @@
     <div>
       <div id="header" class="bg-[url('/hero-bg.jpg')]">
         <Header />
+        <div id="test">
+          <canvas id="bg" class="h-screen w-screen bg-black">
+            <!---->
+          </canvas>
+          <script type="module" src="/three.js" />
+        </div>
         <div class="flex flex-col lg:flex-row justify-center gap-12 lg:gap-32 pb-20 pt-10 px-10">
           <div id="hero-burger" class="relative mx-auto">
             <img src="/hero-burger.png" class="pr-8 mt-10 max-w-xl hover:animate-spin" alt="" />
